@@ -1,0 +1,5 @@
+- name: unarchive source
+  unarchive:
+    src: /tmp/{{ sw_name }}-{{ version }}.tar.gz
+    dest: {{ dest_path }}
+    copy: no

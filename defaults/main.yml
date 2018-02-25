@@ -1,2 +1,9 @@
 ---
 # defaults file for kaneproject.apache-software-foundation
+version: 1.8.0
+mirror: apache.rediris.es
+sw_name: flume
+dest_path: /usr/local
+is_bin: true 
+extension: tar.gz
+add_to_path: true

@@ -1,2 +1,6 @@
 ---
 # vars file for kaneproject.apache-software-foundation
+footer_url_name: "{{ '-bin' if is_bin else '' }}.{{ extension }}"
+path_name: http://{{ mirror }}/{{ sw_name }}
+base_path: {{ dest_path }}{{ sw_name }}-{{ version }}
+complete_url: {{ path_name }}/apache-{{ sw_name }}-{{ version }}{{ footer_url_name }}

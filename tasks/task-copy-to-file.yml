@@ -1,0 +1,4 @@
+- name: copy to file
+  get_url:
+    url: "{{ complete_url }}"
+    dest: /tmp/{{ sw_name }}-{{ version }}.tar.gz

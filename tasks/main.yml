@@ -1,2 +1,6 @@
 ---
 # tasks file for kaneproject.apache-software-foundation
+- import_tasks: task-copy-to-file.yml
+- import_tasks: task-unarchive-source.yml
+- import_tasks: task-add-to-path.yml
+  when: add_to_path

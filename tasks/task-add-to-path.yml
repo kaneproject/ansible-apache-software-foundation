@@ -1,0 +1,4 @@
+- name: add to path
+  template:
+    src: path_template.sh.j2
+    dest: /etc/profile.d/{{ sw_name }}-{{ version }}.sh
